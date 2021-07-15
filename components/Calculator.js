@@ -10,7 +10,7 @@ class Calculator extends Component {
 }
 
 const styles = StyleSheet.create({
-     
+       
 });
 
 
