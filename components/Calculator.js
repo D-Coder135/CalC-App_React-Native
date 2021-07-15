@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 
 class Calculator extends Component {
     render () {
-        <View></View>
+        return(
+            <View></View>
+        );
     }
 }
