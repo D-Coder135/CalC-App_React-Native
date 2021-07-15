@@ -9,4 +9,9 @@ class Calculator extends Component {
     }
 }
 
+const styles = StyleSheet.create({
+     
+});
+
+
 export default Calculator;
