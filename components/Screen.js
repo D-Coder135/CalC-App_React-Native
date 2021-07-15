@@ -13,7 +13,7 @@ class Screen extends Component {
 
 const styles = StyleSheet.create({
     screenComponent: {
-        flex: 1,
+        flex: 3,
         borderWidth: 1,
         borderColor: 'skyblue'
     }
