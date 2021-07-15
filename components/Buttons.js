@@ -5,7 +5,7 @@ class Buttons extends Component {
     render () {
         return(
             <View style = {styles.buttonsComponent}>
-                Calculator
+                Buttons
             </View>
         );
     }
