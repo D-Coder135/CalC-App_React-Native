@@ -15,6 +15,7 @@ const styles = StyleSheet.create({
     calculatorComponent: {
         flex: 1,
         borderWidth: 1,
+        borderColor: 'skyblue'
     }
 });
 
