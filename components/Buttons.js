@@ -6,6 +6,8 @@ class Buttons extends Component {
         return(
             <View style = {styles.buttonsComponent}>
                 <View></View>
+
+                <View></View>
             </View>
         );
     }
