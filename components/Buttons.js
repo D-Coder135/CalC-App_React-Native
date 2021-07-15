@@ -13,7 +13,7 @@ class Buttons extends Component {
 
 const styles = StyleSheet.create({
     buttonsComponent: {
-        flex: 1,
+        flex: 7,
         borderWidth: 1,
         borderColor: 'skyblue'
     }
