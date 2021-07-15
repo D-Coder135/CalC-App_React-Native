@@ -8,7 +8,7 @@ class Calculator extends Component {
         return(
             <View style = {styles.calculatorComponent}>
                 <Screen />
-                
+                <Buttons />
             </View>
         );
     }
