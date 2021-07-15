@@ -4,13 +4,15 @@ import {View, StyleSheet} from 'react-native';
 class Calculator extends Component {
     render () {
         return(
-            <View></View>
+            <View>
+                Calculator
+            </View>
         );
     }
 }
 
 const styles = StyleSheet.create({
-       
+
 });
 
 
