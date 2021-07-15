@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {View, StyleSheet} from 'react-native';
 import Screen from './Screen';
+import Buttons from './Buttons';
 
 class Calculator extends Component {
     render () {
