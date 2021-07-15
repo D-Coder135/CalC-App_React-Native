@@ -14,7 +14,7 @@ class Calculator extends Component {
 const styles = StyleSheet.create({
     calculatorComponent: {
         flex: 1,
-        
+        borderWidth: 1,
     }
 });
 
