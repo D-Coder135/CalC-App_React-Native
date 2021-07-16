@@ -148,12 +148,16 @@ const styles = StyleSheet.create({
 
     leftSideButton: {
         width: '33.33%',
-        justifyContent: 'center'
+        justifyContent: 'center',
     },
 
     buttonText: {
         fontSize: 30,
         textAlign: 'center',
+    },
+
+    rightSideButton: {
+        
     }
 });
 
