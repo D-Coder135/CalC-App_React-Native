@@ -13,8 +13,8 @@ class Calculator extends Component {
         }
     }
 
-    getExpressionValue = () => {
-        
+    getExpressionValue = (buttonPressed) => {
+
     }
 
     render () {
