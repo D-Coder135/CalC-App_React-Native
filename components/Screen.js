@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     },
 
     expression: {
-
+        fontSize: 30,
     },
 
     result: {
