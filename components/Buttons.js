@@ -8,7 +8,7 @@ class Buttons extends Component {
                 <View style = {styles.leftSideButtons}>
                     <Pressable>
                         <Text>
-                            
+                            AC
                         </Text>
                     </Pressable>
                 </View>
