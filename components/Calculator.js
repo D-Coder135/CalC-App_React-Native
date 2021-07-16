@@ -10,6 +10,7 @@ class Calculator extends Component {
         this.state = {
             expression: '',
             result: '',
+            actualExpression: '',
         }
     }
 
