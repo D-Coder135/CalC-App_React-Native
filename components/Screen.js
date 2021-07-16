@@ -18,6 +18,10 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: 'skyblue',
         backgroundColor: 'skyblue',
+    },
+
+    expression: {
+        
     }
 });
 
