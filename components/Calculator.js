@@ -39,6 +39,8 @@ class Calculator extends Component {
             this.setState( {
                 result: eval(newActualExpression).toString(),
             });
+        } catch (exception) {
+            
         }
     }
 
