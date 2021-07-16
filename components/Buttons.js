@@ -17,7 +17,8 @@ const styles = StyleSheet.create({
     buttonsComponent: {
         flex: 7,
         borderWidth: 1,
-        borderColor: 'skyblue'
+        borderColor: 'skyblue',
+        flexDirection: 'row'
     },
 
     leftSideButtons: {
