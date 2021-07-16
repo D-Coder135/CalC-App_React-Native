@@ -102,6 +102,22 @@ class Buttons extends Component {
                     <Pressable style = {styles.rightSideButton}>
                         <Text style = {styles.buttonText}>÷</Text>
                     </Pressable>
+
+                    <Pressable style = {styles.rightSideButton}>
+                        <Text style = {styles.buttonText}>X</Text>
+                    </Pressable>
+
+                    <Pressable style = {styles.rightSideButton}>
+                        <Text style = {styles.buttonText}>-</Text>
+                    </Pressable>
+
+                    <Pressable style = {styles.rightSideButton}>
+                        <Text style = {styles.buttonText}>+</Text>
+                    </Pressable>
+
+                    <Pressable style = {styles.rightSideButton}>
+                        <Text style = {styles.buttonText}>=</Text>
+                    </Pressable>
                 </View>
             </View>
         );
