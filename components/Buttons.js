@@ -42,7 +42,8 @@ const styles = StyleSheet.create({
     leftSideButtons: {
         borderWidth: 1,
         borderColor: 'skyblue',
-        flex: 8
+        flex: 8,
+        flexDirection: 'row'
     },
 
     rightSideButtons: {
@@ -52,7 +53,7 @@ const styles = StyleSheet.create({
     },
 
     leftSideButton: {
-        
+
     }
 });
 
