@@ -7,7 +7,7 @@ class Buttons extends Component {
             <View style = {styles.buttonsComponent}>
                 <View style = {styles.leftSideButtons}></View>
 
-                <View></View>
+                <View style = {styles.rightSideButtons}></View>
             </View>
         );
     }
