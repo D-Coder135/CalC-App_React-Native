@@ -11,6 +11,7 @@ class Buttons extends Component {
 
         const {
             getExpressionValue,
+            clearAll,
         } = this.props;
 
         return(
