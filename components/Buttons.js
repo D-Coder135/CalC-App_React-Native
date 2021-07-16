@@ -182,6 +182,7 @@ const styles = StyleSheet.create({
         height: 40,
         paddingTop: 8,
         borderRadius: 40,
+        backgroundColor: 'skyblue'
     },
 
     rightSideButton: {
