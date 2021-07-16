@@ -6,7 +6,7 @@ import Buttons from './Buttons';
 class Calculator extends Component {
 
     constructor(props) {
-        
+        super(props);
     }
 
     render () {
