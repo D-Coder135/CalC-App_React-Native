@@ -27,7 +27,9 @@ class Calculator extends Component {
         return(
             <View style = {styles.calculatorComponent}>
                 <StatusBar  barStyle = 'dark-content' backgroundColor = 'skyblue'/>
-                <Screen />
+                <Screen 
+                expression = {expression}
+                />
                 <Buttons />
             </View>
         );
