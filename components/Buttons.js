@@ -1,6 +1,10 @@
 import React, {Component} from 'react';
 import {View, StyleSheet, Pressable, Text} from 'react-native';
 
+const buttonRipple = {
+           
+}
+
 class Buttons extends Component {
     render () {
         return(
