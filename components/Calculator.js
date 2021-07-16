@@ -17,6 +17,8 @@ class Calculator extends Component {
         const {
             expression
         } = this.state;
+
+        let newExpression = `${expression}${buttonPressed}`;
     }
 
     render () {
