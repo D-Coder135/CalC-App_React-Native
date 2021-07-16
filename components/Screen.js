@@ -21,6 +21,10 @@ const styles = StyleSheet.create({
     },
 
     expression: {
+
+    },
+
+    result: {
         
     }
 });
