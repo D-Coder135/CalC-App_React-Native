@@ -29,7 +29,8 @@ const styles = StyleSheet.create({
 
     rightSideButtons: {
         borderWidth: 1,
-        borderColor: 'skyblue'
+        borderColor: 'skyblue',
+        flex: 2
     }
 });
 
