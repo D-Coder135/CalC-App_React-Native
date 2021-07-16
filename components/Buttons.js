@@ -146,6 +146,10 @@ const styles = StyleSheet.create({
         flex: 2
     },
 
+    equalsButton: {
+
+    },
+
     leftSideButton: {
         width: '33.33%',
         justifyContent: 'center',
