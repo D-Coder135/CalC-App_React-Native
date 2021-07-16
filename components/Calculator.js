@@ -35,7 +35,9 @@ class Calculator extends Component {
         let newActualExpression = `${actualExpression}${buttonPressed}`;
         this.setState({actualExpression: newActualExpression});
 
-        
+        try {
+            
+        }
     }
 
     render () {
