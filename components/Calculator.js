@@ -22,6 +22,10 @@ class Calculator extends Component {
 
         let newExpression = `${expression}${buttonPressed}`;
         this.setState({expression: newExpression});
+
+        if (buttonPressed === '÷') {
+            
+        }
     }
 
     render () {
