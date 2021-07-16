@@ -21,11 +21,12 @@ const styles = StyleSheet.create({
     },
 
     leftSideButtons: {
-
+        borderWidth: 1,
+        borderColor: 'skyblue'
     },
 
     rightSideButtons: {
-        
+
     }
 });
 
