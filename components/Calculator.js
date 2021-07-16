@@ -18,6 +18,7 @@ class Calculator extends Component {
         const {
             expression,
             actualExpression,
+            result,
         } = this.state;
 
         let newExpression = `${expression}${buttonPressed}`;
@@ -33,6 +34,8 @@ class Calculator extends Component {
 
         let newActualExpression = `${actualExpression}${buttonPressed}`;
         this.setState({actualExpression: newActualExpression});
+
+        
     }
 
     render () {
