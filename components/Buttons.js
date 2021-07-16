@@ -11,6 +11,18 @@ class Buttons extends Component {
                             AC
                         </Text>
                     </Pressable>
+
+                    <Pressable>
+                        <Text>
+                            DEL
+                        </Text>
+                    </Pressable>
+
+                    <Pressable>
+                        <Text>
+                            %
+                        </Text>
+                    </Pressable>
                 </View>
 
                 <View style = {styles.rightSideButtons}></View>
