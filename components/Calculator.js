@@ -18,6 +18,11 @@ class Calculator extends Component {
     }
 
     render () {
+
+        const {
+            expression,
+        } = this.state
+
         return(
             <View style = {styles.calculatorComponent}>
                 <StatusBar  barStyle = 'dark-content' backgroundColor = 'skyblue'/>
