@@ -12,13 +12,13 @@ class Buttons extends Component {
                         </Text>
                     </Pressable>
 
-                    <Pressable>
+                    <Pressable style = {styles.leftSideButton}>
                         <Text>
                             DEL
                         </Text>
                     </Pressable>
 
-                    <Pressable>
+                    <Pressable style = {styles.leftSideButton}>
                         <Text>
                             %
                         </Text>
