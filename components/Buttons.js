@@ -8,6 +8,11 @@ const buttonRipple = {
 
 class Buttons extends Component {
     render () {
+
+        const {
+            getExpressionValue,
+        } = this.props
+
         return(
             <View style = {styles.buttonsComponent}>
                 <View style = {styles.leftSideButtons}>
