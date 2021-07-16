@@ -128,6 +128,7 @@ const styles = StyleSheet.create({
 
     leftSideButton: {
         width: '33.33%',
+        justifyContent: 'center'
     },
 
     buttonText: {
