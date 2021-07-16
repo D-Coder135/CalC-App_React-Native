@@ -45,7 +45,11 @@ class Calculator extends Component {
     }
 
     clearAll = () => {
-        
+        this.setState({
+            expression: '',
+            result: '',
+            actualExpression: '',
+        });
     }
 
     render () {
