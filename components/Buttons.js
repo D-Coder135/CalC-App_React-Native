@@ -17,85 +17,85 @@ class Buttons extends Component {
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
                         <Text style = {styles.buttonText}>
                             DEL
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
                         <Text style = {styles.buttonText}>
                             %
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
                         <Text style = {styles.buttonText}>
                             9
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
                         <Text style = {styles.buttonText}>
                             8
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
                         <Text style = {styles.buttonText}>
                             7
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
                         <Text style = {styles.buttonText}>
                             6
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
                         <Text style = {styles.buttonText}>
                             5
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
                         <Text style = {styles.buttonText}>
                             4
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
                         <Text style = {styles.buttonText}>
                             3
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
                         <Text style = {styles.buttonText}>
                             2
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
                         <Text style = {styles.buttonText}>
                             1
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
                         <Text style = {styles.buttonText}>
                             H
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
                         <Text style = {styles.buttonText}>
                             0
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
                         <Text style = {styles.buttonText}>
                             .
                         </Text>
@@ -104,23 +104,23 @@ class Buttons extends Component {
                 </View>
 
                 <View style = {styles.rightSideButtons}>
-                    <Pressable style = {styles.rightSideButton}>
+                    <Pressable style = {styles.rightSideButton} android_ripple = {buttonRipple}>
                         <Text style = {styles.buttonTextRight}>÷</Text>
                     </Pressable>
 
-                    <Pressable style = {styles.rightSideButton}>
+                    <Pressable style = {styles.rightSideButton} android_ripple = {buttonRipple}>
                         <Text style = {styles.buttonTextRight}>×</Text>
                     </Pressable>
 
-                    <Pressable style = {styles.rightSideButton}>
+                    <Pressable style = {styles.rightSideButton} android_ripple = {buttonRipple}>
                         <Text style = {styles.buttonTextRight}>−</Text>
                     </Pressable>
 
-                    <Pressable style = {styles.rightSideButton}>
+                    <Pressable style = {styles.rightSideButton} android_ripple = {buttonRipple}>
                         <Text style = {styles.buttonTextRight}>+</Text>
                     </Pressable>
 
-                    <Pressable style = {styles.rightSideButton}>
+                    <Pressable style = {styles.rightSideButton} android_ripple = {buttonRipple}>
                         <Text style = {styles.equalsButton}>=</Text>
                     </Pressable>
                 </View>
