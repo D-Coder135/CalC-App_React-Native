@@ -5,7 +5,11 @@ class Buttons extends Component {
     render () {
         return(
             <View style = {styles.buttonsComponent}>
-                <View style = {styles.leftSideButtons}></View>
+                <View style = {styles.leftSideButtons}>
+                    <Pressable>
+                        
+                    </Pressable>
+                </View>
 
                 <View style = {styles.rightSideButtons}></View>
             </View>
