@@ -4,6 +4,11 @@ import Screen from './Screen';
 import Buttons from './Buttons';
 
 class Calculator extends Component {
+
+    constructor(props) {
+        
+    }
+
     render () {
         return(
             <View style = {styles.calculatorComponent}>
