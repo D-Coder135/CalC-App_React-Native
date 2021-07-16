@@ -36,7 +36,7 @@ class Calculator extends Component {
                 expression = {expression}
                 result = {result}
                 />
-                <Buttons />
+                <Buttons getExpressionValue = {this.getExpressionValue}/>
             </View>
         );
     }
