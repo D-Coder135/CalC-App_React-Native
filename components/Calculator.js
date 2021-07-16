@@ -53,7 +53,10 @@ class Calculator extends Component {
     }
 
     equalsTo = () => {
-        
+        this.setState({
+            expression: this.state.result,
+            result: ''
+        });
     }
 
     render () {
