@@ -11,7 +11,7 @@ class Buttons extends Component {
 
         const {
             getExpressionValue,
-        } = this.props
+        } = this.props;
 
         return(
             <View style = {styles.buttonsComponent}>
@@ -28,61 +28,61 @@ class Buttons extends Component {
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple} onPress = {() => {this.getExpressionValue('%')}}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple} onPress = {() => {getExpressionValue('%')}}>
                         <Text style = {styles.buttonText}>
                             %
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple} onPress = {() => {getExpressionValue('9')}}>
                         <Text style = {styles.buttonText}>
                             9
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple} onPress = {() => {getExpressionValue('8')}}>
                         <Text style = {styles.buttonText}>
                             8
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple} onPress = {() => {getExpressionValue('7')}}>
                         <Text style = {styles.buttonText}>
                             7
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple} onPress = {() => {getExpressionValue('6')}}>
                         <Text style = {styles.buttonText}>
                             6
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple} onPress = {() => {getExpressionValue('5')}}>
                         <Text style = {styles.buttonText}>
                             5
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple} onPress = {() => {getExpressionValue('4')}}>
                         <Text style = {styles.buttonText}>
                             4
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple} onPress = {() => {getExpressionValue('3')}}>
                         <Text style = {styles.buttonText}>
                             3
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple} onPress = {() => {getExpressionValue('2')}}>
                         <Text style = {styles.buttonText}>
                             2
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple} onPress = {() => {getExpressionValue('1')}}>
                         <Text style = {styles.buttonText}>
                             1
                         </Text>
@@ -94,13 +94,13 @@ class Buttons extends Component {
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple} onPress = {() => {getExpressionValue('0')}}>
                         <Text style = {styles.buttonText}>
                             0
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple} onPress = {() => {getExpressionValue('.')}}>
                         <Text style = {styles.buttonText}>
                             .
                         </Text>
@@ -109,23 +109,23 @@ class Buttons extends Component {
                 </View>
 
                 <View style = {styles.rightSideButtons}>
-                    <Pressable style = {styles.rightSideButton} android_ripple = {buttonRipple}>
+                    <Pressable style = {styles.rightSideButton} android_ripple = {buttonRipple} onPress = {() => {getExpressionValue('÷')}}>
                         <Text style = {styles.buttonTextRight}>÷</Text>
                     </Pressable>
 
-                    <Pressable style = {styles.rightSideButton} android_ripple = {buttonRipple}>
+                    <Pressable style = {styles.rightSideButton} android_ripple = {buttonRipple} onPress = {() => {getExpressionValue('×')}}>
                         <Text style = {styles.buttonTextRight}>×</Text>
                     </Pressable>
 
-                    <Pressable style = {styles.rightSideButton} android_ripple = {buttonRipple}>
+                    <Pressable style = {styles.rightSideButton} android_ripple = {buttonRipple} onPress = {() => {getExpressionValue('−')}}>
                         <Text style = {styles.buttonTextRight}>−</Text>
                     </Pressable>
 
-                    <Pressable style = {styles.rightSideButton} android_ripple = {buttonRipple}>
+                    <Pressable style = {styles.rightSideButton} android_ripple = {buttonRipple} onPress = {() => {getExpressionValue('+')}}>
                         <Text style = {styles.buttonTextRight}>+</Text>
                     </Pressable>
 
-                    <Pressable style = {styles.rightSideButton} android_ripple = {buttonRipple}>
+                    <Pressable style = {styles.rightSideButton} android_ripple = {buttonRipple} >
                         <Text style = {styles.equalsButton}>=</Text>
                     </Pressable>
                 </View>
