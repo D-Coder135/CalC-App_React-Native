@@ -52,6 +52,10 @@ class Calculator extends Component {
         });
     }
 
+    equalsTo = () => {
+        
+    }
+
     render () {
 
         const {
