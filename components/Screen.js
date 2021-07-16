@@ -6,7 +6,7 @@ class Screen extends Component {
         return(
             <View style = {styles.screenComponent}>
                 <Text style = {styles.expression}>123456 * 456</Text>
-                <Tex style = {styles.result}>123456456</Tex>
+                <Text style = {styles.result}>123456456</Text>
             </View>
         );
     }
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     },
 
     result: {
-        
+
     }
 });
 
