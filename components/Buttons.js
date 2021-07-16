@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {View, StyleSheet, Pressable, Text} from 'react-native';
 
 const buttonRipple = {
-           
+    color: 'grey',
 }
 
 class Buttons extends Component {
