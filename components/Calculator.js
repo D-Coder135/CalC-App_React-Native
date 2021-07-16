@@ -44,6 +44,10 @@ class Calculator extends Component {
         }
     }
 
+    clearAll = () => {
+        
+    }
+
     render () {
 
         const {
