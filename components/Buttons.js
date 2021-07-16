@@ -163,6 +163,7 @@ const styles = StyleSheet.create({
         textAlignVertical: 'center',
         backgroundColor: 'lightgrey',
         marginTop: 8,
+        marginBottom: 8,
     },
 
     rightSideButton: {
