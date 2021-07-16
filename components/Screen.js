@@ -3,6 +3,12 @@ import {View, StyleSheet, Text} from 'react-native';
 
 class Screen extends Component {
     render () {
+
+        const {
+            expression,
+            result,
+        } = this.props;
+
         return(
             <View style = {styles.screenComponent}>
                 <Text style = {styles.expression}>123456 * 456</Text>
