@@ -141,8 +141,8 @@ const styles = StyleSheet.create({
     },
 
     rightSideButtons: {
-        borderWidth: 1,
-        borderColor: 'skyblue',
+        // borderWidth: 1,
+        // borderColor: 'skyblue',
         flex: 2
     },
 
