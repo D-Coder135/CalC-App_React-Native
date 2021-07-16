@@ -11,7 +11,7 @@ class Buttons extends Component {
         return(
             <View style = {styles.buttonsComponent}>
                 <View style = {styles.leftSideButtons}>
-                    <Pressable style = {styles.leftSideButton}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
                         <Text style = {styles.buttonText}>
                             AC
                         </Text>
