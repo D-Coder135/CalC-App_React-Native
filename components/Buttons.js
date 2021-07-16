@@ -26,7 +26,8 @@ const styles = StyleSheet.create({
     },
 
     rightSideButtons: {
-
+        borderWidth: 1,
+        borderColor: 'skyblue'
     }
 });
 
