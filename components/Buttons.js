@@ -157,6 +157,10 @@ const styles = StyleSheet.create({
         textAlign: 'center',
     },
 
+    buttonTextRight: {
+
+    },
+
     rightSideButton: {
         height: '20%',
         justifyContent: 'center'
