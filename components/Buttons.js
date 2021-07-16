@@ -3,6 +3,7 @@ import {View, StyleSheet, Pressable, Text} from 'react-native';
 
 const buttonRipple = {
     color: 'grey',
+    borderless: true,
 }
 
 class Buttons extends Component {
