@@ -133,8 +133,8 @@ const styles = StyleSheet.create({
     },
 
     leftSideButtons: {
-        borderWidth: 1,
-        borderColor: 'skyblue',
+        // borderWidth: 1,
+        // borderColor: 'skyblue',
         flex: 8,
         flexDirection: 'row',
         flexWrap: 'wrap',
