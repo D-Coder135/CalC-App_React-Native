@@ -14,7 +14,9 @@ class Calculator extends Component {
     }
 
     getExpressionValue = (buttonPressed) => {
-
+        const {
+            expression
+        } = this.state;
     }
 
     render () {
