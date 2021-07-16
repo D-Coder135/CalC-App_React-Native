@@ -158,6 +158,7 @@ const styles = StyleSheet.create({
     },
 
     buttonTextRight: {
+        flex: 1,
         fontSize: 30,
         textAlign: 'center',
         textAlignVertical: 'center',
