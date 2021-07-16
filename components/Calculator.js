@@ -7,7 +7,7 @@ class Calculator extends Component {
     render () {
         return(
             <View style = {styles.calculatorComponent}>
-                <StatusBar  barStyle = 'dark-content'/>
+                <StatusBar  barStyle = 'dark-content' backgroundColor = 'skyblue'/>
                 <Screen />
                 <Buttons />
             </View>
