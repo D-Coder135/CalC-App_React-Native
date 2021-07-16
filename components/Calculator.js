@@ -24,7 +24,7 @@ class Calculator extends Component {
         this.setState({expression: newExpression});
 
         if (buttonPressed === '÷') {
-            
+            buttonPressed = '/';
         }
     }
 
