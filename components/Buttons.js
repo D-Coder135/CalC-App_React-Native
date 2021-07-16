@@ -18,6 +18,10 @@ const styles = StyleSheet.create({
         flex: 7,
         borderWidth: 1,
         borderColor: 'skyblue'
+    },
+
+    leftSideButtons: {
+        
     }
 });
 
