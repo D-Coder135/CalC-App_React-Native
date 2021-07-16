@@ -23,6 +23,79 @@ class Buttons extends Component {
                             %
                         </Text>
                     </Pressable>
+
+                    <Pressable style = {styles.leftSideButton}>
+                        <Text>
+                            9
+                        </Text>
+                    </Pressable>
+
+                    <Pressable style = {styles.leftSideButton}>
+                        <Text>
+                            8
+                        </Text>
+                    </Pressable>
+
+                    <Pressable style = {styles.leftSideButton}>
+                        <Text>
+                            7
+                        </Text>
+                    </Pressable>
+
+                    <Pressable style = {styles.leftSideButton}>
+                        <Text>
+                            6
+                        </Text>
+                    </Pressable>
+
+                    <Pressable style = {styles.leftSideButton}>
+                        <Text>
+                            5
+                        </Text>
+                    </Pressable>
+
+                    <Pressable style = {styles.leftSideButton}>
+                        <Text>
+                            4
+                        </Text>
+                    </Pressable>
+
+                    <Pressable style = {styles.leftSideButton}>
+                        <Text>
+                            3
+                        </Text>
+                    </Pressable>
+
+                    <Pressable style = {styles.leftSideButton}>
+                        <Text>
+                            2
+                        </Text>
+                    </Pressable>
+
+                    <Pressable style = {styles.leftSideButton}>
+                        <Text>
+                            1
+                        </Text>
+                    </Pressable>
+
+                    <Pressable style = {styles.leftSideButton}>
+                        <Text>
+                            H
+                        </Text>
+                    </Pressable>
+
+                    <Pressable style = {styles.leftSideButton}>
+                        <Text>
+                            0
+                        </Text>
+                    </Pressable>
+
+                    <Pressable style = {styles.leftSideButton}>
+                        <Text>
+                            .
+                        </Text>
+                    </Pressable>
+
                 </View>
 
                 <View style = {styles.rightSideButtons}></View>
