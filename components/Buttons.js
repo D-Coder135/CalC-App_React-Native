@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, StyleSheet} from 'react-native';
+import {View, StyleSheet, Pressable} from 'react-native';
 
 class Buttons extends Component {
     render () {
