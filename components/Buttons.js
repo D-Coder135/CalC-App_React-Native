@@ -176,7 +176,7 @@ const styles = StyleSheet.create({
         fontSize: 30,
         textAlign: 'center',
         textAlignVertical: 'center',
-        backgroundColor: 'lightgrey',
+        // backgroundColor: 'lightgrey',
         marginTop: 10,
         marginBottom: 10,
         height: 40,
