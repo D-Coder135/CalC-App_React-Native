@@ -116,7 +116,8 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: 'skyblue',
         flex: 8,
-        flexDirection: 'row'
+        flexDirection: 'row',
+        flexWrap: 'wrap',
     },
 
     rightSideButtons: {
