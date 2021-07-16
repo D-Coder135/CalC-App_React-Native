@@ -99,7 +99,7 @@ class Buttons extends Component {
                 </View>
 
                 <View style = {styles.rightSideButtons}>
-                    <Pressable></Pressable>
+                    <Pressable style = {styles.rightSideButton}></Pressable>
                 </View>
             </View>
         );
