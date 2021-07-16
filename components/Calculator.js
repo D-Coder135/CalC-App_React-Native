@@ -21,6 +21,7 @@ class Calculator extends Component {
 
         const {
             expression,
+            result,
         } = this.state
 
         return(
