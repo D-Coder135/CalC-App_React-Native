@@ -100,7 +100,7 @@ class Buttons extends Component {
 
                 <View style = {styles.rightSideButtons}>
                     <Pressable style = {styles.rightSideButton}>
-                        <Text></Text>
+                        <Text>÷</Text>
                     </Pressable>
                 </View>
             </View>
