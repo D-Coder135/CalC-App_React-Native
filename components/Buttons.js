@@ -160,7 +160,7 @@ const styles = StyleSheet.create({
     buttonTextRight: {
         fontSize: 30,
         textAlign: 'center',
-        
+        textAlignVertical: 'center',
     },
 
     rightSideButton: {
