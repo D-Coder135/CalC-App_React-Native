@@ -66,7 +66,7 @@ class Calculator extends Component {
                 expression = {expression}
                 result = {result}
                 />
-                <Buttons getExpressionValue = {this.getExpressionValue}/>
+                <Buttons getExpressionValue = {this.getExpressionValue} clearAll = {this.clearAll}/>
             </View>
         );
     }
