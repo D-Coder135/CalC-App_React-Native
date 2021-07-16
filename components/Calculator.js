@@ -9,7 +9,7 @@ class Calculator extends Component {
         super(props);
         this.state = {
             expression: '',
-            
+            result: '',
         }
     }
 
