@@ -40,7 +40,7 @@ class Calculator extends Component {
                 result: eval(newActualExpression).toString(),
             });
         } catch (exception) {
-            
+            console.log(exception);
         }
     }
 
