@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, StyleSheet, Pressable} from 'react-native';
+import {View, StyleSheet, Pressable, Text} from 'react-native';
 
 class Buttons extends Component {
     render () {
@@ -7,7 +7,7 @@ class Buttons extends Component {
             <View style = {styles.buttonsComponent}>
                 <View style = {styles.leftSideButtons}>
                     <Pressable>
-                        
+
                     </Pressable>
                 </View>
 
