@@ -30,6 +30,8 @@ class Calculator extends Component {
         } else if (buttonPressed === '−') {
             buttonPressed = '-';
         }
+
+        let newActualExpression = `${actualExpression}${buttonPressed}`;
     }
 
     render () {
