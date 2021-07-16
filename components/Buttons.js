@@ -146,9 +146,6 @@ const styles = StyleSheet.create({
         flex: 2
     },
 
-    equalsButton: {
-
-    },
 
     leftSideButton: {
         width: '33.33%',
@@ -162,6 +159,19 @@ const styles = StyleSheet.create({
     },
 
     buttonTextRight: {
+        flex: 1,
+        fontSize: 30,
+        textAlign: 'center',
+        textAlignVertical: 'center',
+        backgroundColor: 'lightgrey',
+        marginTop: 10,
+        marginBottom: 10,
+        height: 40,
+        paddingTop: 8,
+        borderRadius: 40,
+    },
+
+    equalsButton: {
         flex: 1,
         fontSize: 30,
         textAlign: 'center',
