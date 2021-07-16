@@ -13,6 +13,10 @@ class Calculator extends Component {
         }
     }
 
+    getExpressionValue = () => {
+        
+    }
+
     render () {
         return(
             <View style = {styles.calculatorComponent}>
