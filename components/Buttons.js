@@ -162,6 +162,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         textAlignVertical: 'center',
         backgroundColor: 'lightgrey',
+        marginTop: 8,
     },
 
     rightSideButton: {
