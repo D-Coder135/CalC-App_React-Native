@@ -5,7 +5,7 @@ class Screen extends Component {
     render () {
         return(
             <View style = {styles.screenComponent}>
-                <Text></Text>
+                <Text>Screen</Text>
             </View>
         );
     }
