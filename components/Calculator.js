@@ -25,6 +25,8 @@ class Calculator extends Component {
 
         if (buttonPressed === '÷') {
             buttonPressed = '/';
+        } else if (buttonPressed === '×') {
+            
         }
     }
 
