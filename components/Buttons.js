@@ -164,6 +164,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'lightgrey',
         marginTop: 8,
         marginBottom: 8,
+        height: 40,
     },
 
     rightSideButton: {
