@@ -161,6 +161,7 @@ const styles = StyleSheet.create({
         fontSize: 30,
         textAlign: 'center',
         textAlignVertical: 'center',
+        backgroundColor: 'lightgrey',
     },
 
     rightSideButton: {
