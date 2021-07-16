@@ -16,7 +16,7 @@ class Buttons extends Component {
         return(
             <View style = {styles.buttonsComponent}>
                 <View style = {styles.leftSideButtons}>
-                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple} >
                         <Text style = {styles.buttonText}>
                             AC
                         </Text>
@@ -28,7 +28,7 @@ class Buttons extends Component {
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple} onPress = {() => {this.getExpressionValue('%')}}>
                         <Text style = {styles.buttonText}>
                             %
                         </Text>
