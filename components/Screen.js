@@ -22,6 +22,7 @@ const styles = StyleSheet.create({
 
     expression: {
         fontSize: 30,
+        textAlign: 'right'
     },
 
     result: {
