@@ -56,6 +56,9 @@ class Calculator extends Component {
         const {
             expression,
         } = this.state
+
+        const slicedExpression = expression.slice(0, expression.length - 1);
+        
     }
 
     equalsTo = () => {
