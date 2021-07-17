@@ -56,6 +56,7 @@ class Calculator extends Component {
         const {
             expression,
             actualExpression,
+            result,
         } = this.state
 
         const slicedExpression = expression.slice(0, expression.length - 1);
