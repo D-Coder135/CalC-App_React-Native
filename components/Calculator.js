@@ -55,10 +55,14 @@ class Calculator extends Component {
     deleteLastCharacter = () => {
         const {
             expression,
+            actualExpression,
         } = this.state
 
         const slicedExpression = expression.slice(0, expression.length - 1);
-        this.setState({expression: slicedExpression});
+        const slicedActualExpression = actualExpression.slice(0, actualExpression.length - 1);
+        this.setState({
+            expression: slicedExpression,
+        });
     }
 
     equalsTo = () => {
