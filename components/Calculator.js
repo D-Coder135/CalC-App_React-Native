@@ -64,6 +64,10 @@ class Calculator extends Component {
         this.setState({
             expression: slicedExpression,
         });
+
+        if(slicedActualExpression === '') {
+            
+        }
     }
 
     equalsTo = () => {
