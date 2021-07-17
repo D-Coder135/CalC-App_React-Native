@@ -66,7 +66,7 @@ class Calculator extends Component {
         });
 
         if(slicedActualExpression === '') {
-            
+            this.setState({result: ''});
         }
     }
 
