@@ -25,7 +25,7 @@ class Buttons extends Component {
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple} onPress = {deleteLastCharacter}>
                         <Text style = {styles.buttonText}>
                             DEL
                         </Text>
