@@ -140,8 +140,8 @@ class Buttons extends Component {
 const styles = StyleSheet.create({
     buttonsComponent: {
         flex: 7,
-        borderWidth: 1,
-        borderColor: 'skyblue',
+        // borderWidth: 1,
+        // borderColor: 'skyblue',
         flexDirection: 'row'
     },
 
