@@ -85,6 +85,7 @@ class Calculator extends Component {
                 <Buttons 
                 getExpressionValue = {this.getExpressionValue} 
                 clearAll = {this.clearAll}
+                deleteLastCharacter = {this.deleteLastCharacter}
                 equalsTo = {this.equalsTo}
                 />
             </View>
