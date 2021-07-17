@@ -68,6 +68,14 @@ class Calculator extends Component {
         if(slicedActualExpression === '') {
             this.setState({result: ''});
         }
+
+        try {
+            this.setState( {
+                result: eval(slicedActualExpression).toString(),
+            });
+        } catch (exception) {
+            console.log(exception);
+        }
     }
 
     equalsTo = () => {
