@@ -52,6 +52,10 @@ class Calculator extends Component {
         });
     }
 
+    deleteLastCharacter = () => {
+        
+    }
+
     equalsTo = () => {
         this.setState({
             expression: this.state.result,
