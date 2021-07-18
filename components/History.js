@@ -5,12 +5,12 @@ class History extends Component {
     render () {
         return (
             <View style = {styles.historyComponent}>
-                <View>
+                <View style = {styles.historyContainer}>
 
                 </View>
 
                 <View>
-                    
+
                 </View>
             </View>
         );
