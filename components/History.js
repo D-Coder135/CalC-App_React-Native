@@ -50,6 +50,6 @@ const styles = StyleSheet.create({
     },
 
     historyContent: {
-        
+        flex: 8,
     }
 });
