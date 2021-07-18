@@ -9,10 +9,13 @@ class History extends Component {
     }
 }
 
+export default History;
+
 const styles = StyleSheet.create({
     historyComponent: {
         flex: 1,
         position: 'absolute',
         zIndex: 1,
+
     }
 });
