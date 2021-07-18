@@ -11,7 +11,7 @@ class History extends Component {
                     <View></View>
 
                     <Pressable>
-                        
+                        <Text></Text>
                     </Pressable>
 
                 </View>
