@@ -12,6 +12,7 @@ class History extends Component {
 const styles = StyleSheet.create({
     historyComponent: {
         flex: 1,
-        position: 'absolute'
+        position: 'absolute',
+        zIndex: 1,
     }
 });
