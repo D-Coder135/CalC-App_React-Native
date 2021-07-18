@@ -121,6 +121,7 @@ const styles = StyleSheet.create({
     },
 
     historyWrapper: {
+        position: 'absolute',
         
     }
 });
