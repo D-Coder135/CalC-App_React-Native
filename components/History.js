@@ -6,7 +6,7 @@ class History extends Component {
         return (
             <View style = {styles.historyComponent}>
                 <View style = {styles.historyContainer}>
-                    <View></View>
+                    <View style = {styles.historyHeader}></View>
 
                     <View></View>
 
