@@ -8,6 +8,8 @@ class History extends Component {
                 <View style = {styles.historyContainer}>
                     <View></View>
 
+                    <View></View>
+
                 </View>
 
                 <View style = {styles.disabledArea}>
