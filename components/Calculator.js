@@ -126,6 +126,7 @@ const styles = StyleSheet.create({
         zIndex: 3,
         width: '100%',
         height: '100%',
+        backgroundColor: '#00000061',
     }
 });
 
