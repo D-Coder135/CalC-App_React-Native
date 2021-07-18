@@ -99,7 +99,9 @@ class Calculator extends Component {
                 expression = {expression}
                 result = {result}
                 />
-                <View style = {styles.historyWrapper}></View>
+                <View style = {styles.historyWrapper}>
+                    <History />
+                </View>
                 <Buttons 
                 getExpressionValue = {this.getExpressionValue} 
                 clearAll = {this.clearAll}
