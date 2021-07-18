@@ -43,5 +43,9 @@ const styles = StyleSheet.create({
 
     disabledArea: {
         flex: 2,
+    },
+
+    historyHeader: {
+        
     }
 });
