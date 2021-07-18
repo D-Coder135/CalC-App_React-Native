@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
         flex: 8,
         backgroundColor: 'skyblue',
         borderBottomLeftRadius: 20,
-        
+        borderBottomRightRadius: 20,
     },
 
     disabledArea: {
