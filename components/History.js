@@ -8,7 +8,7 @@ class History extends Component {
                 <View style = {styles.historyContainer}>
                     <View style = {styles.historyHeader}></View>
 
-                    <View></View>
+                    <View style = {styles.historyContent}></View>
 
                     <Pressable>
                         <Text>Close</Text>
