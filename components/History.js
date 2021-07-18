@@ -9,6 +9,8 @@ class History extends Component {
     }
 }
 
-const styles = StyleSheet.create(
-    
-);
+const styles = StyleSheet.create({
+    historyComponent: {
+        
+    }
+});
