@@ -62,5 +62,6 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         height: '100%',
         textAlignVertical: 'center',
+        borderTopWidth: 1,
     }
 });
