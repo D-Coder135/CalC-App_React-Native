@@ -4,7 +4,13 @@ import { Text, StyleSheet, View } from 'react-native';
 class History extends Component {
     render () {
         return (
-            <View style = {styles.historyComponent}></View>
+            <View style = {styles.historyComponent}>
+                <View>
+
+                </View>
+
+                
+            </View>
         );
     }
 }
