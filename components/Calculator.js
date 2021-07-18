@@ -124,7 +124,8 @@ const styles = StyleSheet.create({
         position: 'absolute',
         top: 10,
         zIndex: 3,
-        width: '100%'
+        width: '100%',
+        height: '100%',
     }
 });
 
