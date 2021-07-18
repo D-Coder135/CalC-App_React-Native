@@ -33,6 +33,6 @@ const styles = StyleSheet.create({
     },
 
     disabledArea: {
-        
+        flex: 1,
     }
 });
