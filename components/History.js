@@ -29,7 +29,9 @@ const styles = StyleSheet.create({
 
     historyContainer: {
         flex: 8,
-        backgroundColor: 'skyblue'
+        backgroundColor: 'skyblue',
+        borderBottomLeftRadius: 20,
+        
     },
 
     disabledArea: {
