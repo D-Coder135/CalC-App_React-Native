@@ -59,6 +59,7 @@ const styles = StyleSheet.create({
 
     closeButtonText: {
         fontSize: 30,
-        textAlign: 'center'
+        textAlign: 'center',
+        height: '100%',
     }
 });
