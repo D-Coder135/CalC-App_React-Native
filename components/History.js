@@ -58,6 +58,6 @@ const styles = StyleSheet.create({
     },
 
     closeButtonText: {
-        
+        fontSize: 30,
     }
 });
