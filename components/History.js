@@ -29,5 +29,6 @@ const styles = StyleSheet.create({
 
     historyContainer: {
         flex: 9,
+        backgroundColor: 'skyblue'
     }
 });
