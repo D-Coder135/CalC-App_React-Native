@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Text, StyleSheet, View } from 'react-native';
+import { Text, StyleSheet, View, Pressable } from 'react-native';
 
 class History extends Component {
     render () {
@@ -9,6 +9,8 @@ class History extends Component {
                     <View></View>
 
                     <View></View>
+
+
 
                 </View>
 
