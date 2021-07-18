@@ -46,6 +46,6 @@ const styles = StyleSheet.create({
     },
 
     historyHeader: {
-        
+        flex: 1,
     }
 });
