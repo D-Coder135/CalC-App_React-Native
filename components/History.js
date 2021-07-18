@@ -8,3 +8,7 @@ class History extends Component {
         );
     }
 }
+
+const styles = StyleSheet.create(
+    
+);
