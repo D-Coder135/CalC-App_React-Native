@@ -10,7 +10,7 @@ class History extends Component {
 
                     <View style = {styles.historyContent}></View>
 
-                    <Pressable>
+                    <Pressable style = {styles.closeButton}>
                         <Text>Close</Text>
                     </Pressable>
 
