@@ -10,7 +10,9 @@ class History extends Component {
 
                     <View></View>
 
-
+                    <Pressable>
+                        
+                    </Pressable>
 
                 </View>
 
