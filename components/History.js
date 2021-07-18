@@ -28,11 +28,11 @@ const styles = StyleSheet.create({
     },
 
     historyContainer: {
-        flex: 9,
+        flex: 8,
         backgroundColor: 'skyblue'
     },
 
     disabledArea: {
-        flex: 1,
+        flex: 2,
     }
 });
