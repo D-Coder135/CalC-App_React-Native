@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {View, StyleSheet, StatusBar} from 'react-native';
 import Screen from './Screen';
 import Buttons from './Buttons';
+import History from './History';
 
 class Calculator extends Component {
 
