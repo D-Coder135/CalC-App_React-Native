@@ -123,6 +123,8 @@ const styles = StyleSheet.create({
     historyWrapper: {
         position: 'absolute',
         top: 10,
+        zIndex: 3,
+        
     }
 });
 
