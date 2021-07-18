@@ -55,5 +55,9 @@ const styles = StyleSheet.create({
 
     closeButton: {
         flex: 1,
+    },
+
+    closeButtonText: {
+        
     }
 });
