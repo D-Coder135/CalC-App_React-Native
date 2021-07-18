@@ -9,7 +9,7 @@ class History extends Component {
 
                 </View>
 
-                <View>
+                <View style = {styles.disabledArea}>
 
                 </View>
             </View>
