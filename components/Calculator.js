@@ -77,6 +77,10 @@ class Calculator extends Component {
             expression,
             result,
         }
+
+        this.setState({
+            
+        });
     }
 
     deleteLastCharacter = () => {
