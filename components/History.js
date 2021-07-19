@@ -3,6 +3,10 @@ import { Text, StyleSheet, View, Pressable } from 'react-native';
 
 class History extends Component {
     render () {
+        const {
+            closeHistory
+        } = this.props;
+        
         return (
             <View style = {styles.historyComponent}>
                 <View style = {styles.historyContainer}>
