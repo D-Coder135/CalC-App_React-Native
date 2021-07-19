@@ -13,7 +13,7 @@ class Calculator extends Component {
             result: '',
             actualExpression: '',
             isHistoryVisible: false,
-            history: []
+            history: [],
         }
     }
 
@@ -65,6 +65,10 @@ class Calculator extends Component {
             result: '',
             actualExpression: '',
         });
+    }
+
+    addHistory = () => {
+        
     }
 
     deleteLastCharacter = () => {
