@@ -68,10 +68,11 @@ class Calculator extends Component {
     }
 
     addHistory = () => {
+        this.equalsTo();
         const {
             expression,
             result,
-            history
+            history,
         } = this.state;
 
         const historyExpression = {

@@ -130,7 +130,7 @@ class Buttons extends Component {
                         <Text style = {styles.buttonTextRight}>+</Text>
                     </Pressable>
 
-                    <Pressable style = {styles.rightSideButton} android_ripple = {buttonRipple} onPress = {equalsTo}>
+                    <Pressable style = {styles.rightSideButton} android_ripple = {buttonRipple} onPress = {addHistory}>
                         <Text style = {styles.equalsButton}>=</Text>
                     </Pressable>
                 </View>
