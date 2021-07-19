@@ -120,6 +120,7 @@ class Calculator extends Component {
                 clearAll = {this.clearAll}
                 deleteLastCharacter = {this.deleteLastCharacter}
                 equalsTo = {this.equalsTo}
+                openHistory = {this.openHistory}
                 />
             </View>
         );
