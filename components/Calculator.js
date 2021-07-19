@@ -84,7 +84,7 @@ class Calculator extends Component {
             history: [...history, historyExpression],
         });
 
-        ToastAndroid.show('Saved To The History', ToastAndroid.SHORT);
+        ToastAndroid.show('Saved In The History', ToastAndroid.SHORT);
     }
 
     deleteLastCharacter = () => {
