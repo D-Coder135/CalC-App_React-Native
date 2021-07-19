@@ -103,6 +103,7 @@ class Calculator extends Component {
         const {
             expression,
             result,
+            isHistoryVisible
         } = this.state
 
         return(
@@ -112,9 +113,13 @@ class Calculator extends Component {
                 expression = {expression}
                 result = {result}
                 />
+
+                { isHistoryVisible ?
                 <View style = {styles.historyWrapper}>
                     <History />
                 </View>
+                : null }
+
                 <Buttons 
                 getExpressionValue = {this.getExpressionValue} 
                 clearAll = {this.clearAll}
