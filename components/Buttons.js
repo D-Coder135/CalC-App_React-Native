@@ -92,7 +92,7 @@ class Buttons extends Component {
                         </Text>
                     </Pressable>
 
-                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple}>
+                    <Pressable style = {styles.leftSideButton} android_ripple = {buttonRipple} onPress = {openHistory}>
                         <Text style = {styles.buttonText}>
                             H
                         </Text>
