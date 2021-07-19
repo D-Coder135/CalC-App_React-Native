@@ -4,7 +4,8 @@ import { Text, StyleSheet, View, Pressable } from 'react-native';
 class History extends Component {
     render () {
         const {
-            closeHistory
+            closeHistory,
+            history,
         } = this.props;
 
         return (
