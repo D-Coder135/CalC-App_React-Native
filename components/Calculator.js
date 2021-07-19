@@ -79,7 +79,7 @@ class Calculator extends Component {
         }
 
         this.setState({
-            
+            history: [...history, historyExpression],
         });
     }
 
