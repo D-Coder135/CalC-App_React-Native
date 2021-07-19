@@ -15,6 +15,7 @@ class Buttons extends Component {
             deleteLastCharacter,
             equalsTo,
             openHistory,
+            addHistory,
         } = this.props;
 
         return(
