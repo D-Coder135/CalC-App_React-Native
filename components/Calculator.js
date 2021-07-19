@@ -125,6 +125,7 @@ class Calculator extends Component {
             expression,
             result,
             isHistoryVisible,
+            history,
         } = this.state
 
         return(
@@ -139,7 +140,7 @@ class Calculator extends Component {
                 <View style = {styles.historyWrapper}>
                     <History 
                     closeHistory = {this.closeHistory}
-                    history = {this.history}
+                    history = {history}
                     />
                 </View>
                 : null }
