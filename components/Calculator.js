@@ -71,6 +71,7 @@ class Calculator extends Component {
         const {
             expression,
             result,
+            history
         } = this.state;
 
         const historyExpression = {
