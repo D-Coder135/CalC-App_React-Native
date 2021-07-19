@@ -12,6 +12,7 @@ class Calculator extends Component {
             expression: '',
             result: '',
             actualExpression: '',
+            isHistoryVisible: false,
         }
     }
 
