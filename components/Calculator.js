@@ -18,7 +18,7 @@ class Calculator extends Component {
 
     openHistory = () => {
         this.setState({
-            
+            isHistoryVisible: true,
         });
     }
 
