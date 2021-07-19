@@ -143,6 +143,7 @@ class Calculator extends Component {
                 deleteLastCharacter = {this.deleteLastCharacter}
                 equalsTo = {this.equalsTo}
                 openHistory = {this.openHistory}
+                addHistory = {this.addHistory}
                 />
             </View>
         );
