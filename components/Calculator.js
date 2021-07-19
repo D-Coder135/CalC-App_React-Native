@@ -72,6 +72,11 @@ class Calculator extends Component {
             expression,
             result,
         } = this.state;
+
+        const historyExpression = {
+            expression,
+            result,
+        }
     }
 
     deleteLastCharacter = () => {
