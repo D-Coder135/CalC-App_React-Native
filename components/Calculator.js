@@ -137,7 +137,10 @@ class Calculator extends Component {
 
                 { isHistoryVisible ?
                 <View style = {styles.historyWrapper}>
-                    <History closeHistory = {this.closeHistory}/>
+                    <History 
+                    closeHistory = {this.closeHistory}
+                    history = {this.history}
+                    />
                 </View>
                 : null }
 
