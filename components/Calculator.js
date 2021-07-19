@@ -22,6 +22,10 @@ class Calculator extends Component {
         });
     }
 
+    closeHistory = () => {
+        
+    }
+
     getExpressionValue = (buttonPressed) => {
         const {
             expression,
