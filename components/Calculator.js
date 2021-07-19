@@ -17,7 +17,9 @@ class Calculator extends Component {
     }
 
     openHistory = () => {
-        
+        this.setState({
+            
+        });
     }
 
     getExpressionValue = (buttonPressed) => {
