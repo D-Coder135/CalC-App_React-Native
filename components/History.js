@@ -13,7 +13,11 @@ class History extends Component {
                 <View style = {styles.historyContainer}>
                     <View style = {styles.historyHeader}></View>
 
-                    <View style = {styles.historyContent}></View>
+                    <View style = {styles.historyContent}>
+                        history.map((item, index) => (
+                            
+                        ))
+                    </View>
 
                     <Pressable style = {styles.closeButton} onPress = {closeHistory}>
                         <Text style = {styles.closeButtonText}>Close</Text>
