@@ -6,7 +6,7 @@ class History extends Component {
         const {
             closeHistory
         } = this.props;
-        
+
         return (
             <View style = {styles.historyComponent}>
                 <View style = {styles.historyContainer}>
@@ -14,7 +14,7 @@ class History extends Component {
 
                     <View style = {styles.historyContent}></View>
 
-                    <Pressable style = {styles.closeButton}>
+                    <Pressable style = {styles.closeButton} onPress = {closeHistory}>
                         <Text style = {styles.closeButtonText}>Close</Text>
                     </Pressable>
 
