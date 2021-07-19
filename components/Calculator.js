@@ -23,7 +23,9 @@ class Calculator extends Component {
     }
 
     closeHistory = () => {
-        
+        this.setState({
+            isHistoryVisible: false,
+        });
     }
 
     getExpressionValue = (buttonPressed) => {
