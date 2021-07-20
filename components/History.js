@@ -76,5 +76,9 @@ const styles = StyleSheet.create({
         height: '100%',
         textAlignVertical: 'center',
         borderTopWidth: 1,
+    },
+
+    historyComponentText: {
+        fontSize: 30,
     }
 });
