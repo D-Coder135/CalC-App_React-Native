@@ -6,6 +6,7 @@ class History extends Component {
         const {
             closeHistory,
             history,
+            clearHistory,
         } = this.props;
 
         return (
