@@ -81,5 +81,6 @@ const styles = StyleSheet.create({
     historyComponentText: {
         fontSize: 30,
         padding: 20,
+        borderBottomWidth:1
     }
 });
