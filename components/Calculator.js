@@ -147,6 +147,7 @@ class Calculator extends Component {
                     <History 
                     closeHistory = {this.closeHistory}
                     history = {history}
+                    clearHistory = {this.clearHistory}
                     />
                 </View>
                 : null }
