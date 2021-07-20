@@ -87,5 +87,9 @@ const styles = StyleSheet.create({
         fontSize: 30,
         padding: 20,
         borderBottomWidth:1
+    },
+
+    headerButton: {
+        
     }
 });
