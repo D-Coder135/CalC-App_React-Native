@@ -14,7 +14,7 @@ class History extends Component {
                     <View style = {styles.historyHeader}>
                     <Text style = {styles.headerButton}>History</Text>
 
-                    <Pressable>
+                    <Pressable style = {styles.clearButton}>
                     <Text style = {styles.headerClearButton}>Clear</Text>
                     </Pressable>
                     </View>
@@ -103,6 +103,6 @@ const styles = StyleSheet.create({
     headerClearButton: {
         textAlign: 'right',
         fontSize: 30,
-        
+        borderWidth: 1,
     }
 });
