@@ -90,6 +90,6 @@ const styles = StyleSheet.create({
     },
 
     headerButton: {
-        
+        fontSize: 35,
     }
 });
