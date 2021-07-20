@@ -92,6 +92,6 @@ const styles = StyleSheet.create({
     headerButton: {
         fontSize: 35,
         height: '100%',
-        
+        textAlignVertical: 'center',
     }
 });
