@@ -13,6 +13,8 @@ class History extends Component {
                 <View style = {styles.historyContainer}>
                     <View style = {styles.historyHeader}>
                     <Text style = {styles.headerButton}>History</Text>
+
+                    <Pressable></Pressable>
                     </View>
 
                     <View style = {styles.historyContent}>
