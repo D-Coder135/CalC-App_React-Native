@@ -15,7 +15,7 @@ class History extends Component {
                     <View style = {styles.historyHeader}>
                     <Text style = {styles.headerButton}>History</Text>
 
-                    <Pressable style = {styles.clearButton}>
+                    <Pressable style = {styles.clearButton} onPress = {clearHistory}>
                     <Text style = {styles.headerClearButton}>Clear</Text>
                     </Pressable>
                     </View>
