@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
     headerClearButton: {
         textAlign: 'right',
         fontSize: 30,
-        borderWidth: 1,
+        // borderWidth: 1,
     },
 
     clearButton: {
