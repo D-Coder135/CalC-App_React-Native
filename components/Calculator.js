@@ -119,6 +119,10 @@ class Calculator extends Component {
         });
     }
 
+    clearHistory = () => {
+        
+    }
+
     render () {
 
         const {
