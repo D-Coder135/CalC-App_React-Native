@@ -11,7 +11,9 @@ class History extends Component {
         return (
             <View style = {styles.historyComponent}>
                 <View style = {styles.historyContainer}>
-                    <View style = {styles.historyHeader}></View>
+                    <View style = {styles.historyHeader}>
+                    <Text style = {styles.headerButton}>Close</Text>
+                    </View>
 
                     <View style = {styles.historyContent}>
                         <ScrollView>{
