@@ -12,7 +12,7 @@ class History extends Component {
             <View style = {styles.historyComponent}>
                 <View style = {styles.historyContainer}>
                     <View style = {styles.historyHeader}>
-                    <Text style = {styles.headerButton}>Close</Text>
+                    <Text style = {styles.headerButton}>History</Text>
                     </View>
 
                     <View style = {styles.historyContent}>
