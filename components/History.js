@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Text, StyleSheet, View, Pressable } from 'react-native';
+import { Text, StyleSheet, View, Pressable, ScrollView } from 'react-native';
 
 class History extends Component {
     render () {
@@ -14,13 +14,16 @@ class History extends Component {
                     <View style = {styles.historyHeader}></View>
 
                     <View style = {styles.historyContent}>
-                        {
+                        <ScrollView>{
                         history.map((item, index) => (
                             <Text style = {styles.historyComponentText}>
                                 {item.expression} = {item.result}
                             </Text>
+                            
                         ))
+                       
     }
+     </ScrollView>
                     </View>
 
                     <Pressable style = {styles.closeButton} onPress = {closeHistory}>
