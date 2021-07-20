@@ -16,7 +16,7 @@ class History extends Component {
                     <View style = {styles.historyContent}>
                         {
                         history.map((item, index) => (
-                            <Text>
+                            <Text style = {styles.historyComponentText}>
                                 {item.expression} = {item.result}
                             </Text>
                         ))
