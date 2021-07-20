@@ -65,6 +65,7 @@ const styles = StyleSheet.create({
 
     historyHeader: {
         flex: 1,
+        borderBottomWidth: 1,
     },
 
     historyContent: {
