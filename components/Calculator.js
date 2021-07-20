@@ -120,7 +120,9 @@ class Calculator extends Component {
     }
 
     clearHistory = () => {
-        
+        this.setState({
+            
+        });
     }
 
     render () {
