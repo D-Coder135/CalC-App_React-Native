@@ -98,5 +98,9 @@ const styles = StyleSheet.create({
         fontSize: 35,
         // height: '100%',
         // textAlignVertical: 'center',
+    },
+
+    headerClearButton: {
+        
     }
 });
