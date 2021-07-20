@@ -101,6 +101,8 @@ const styles = StyleSheet.create({
     },
 
     headerClearButton: {
-        textAlign: 'right'
+        textAlign: 'right',
+        fontSize: 30,
+        
     }
 });
