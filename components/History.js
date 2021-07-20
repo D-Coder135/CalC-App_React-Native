@@ -107,6 +107,6 @@ const styles = StyleSheet.create({
     },
 
     clearButton: {
-        
+        position: 'absolute',
     }
 });
